@@ -1,6 +1,9 @@
 #Create a class
 class User: #creates a class named user
-    pass
+    #initialize attributes.
+    def __int__(self): #In order to be able to add the same attributes to different objects like user_1, user+2 etc we used this
+
+
 
 
 user_1 = User() #creates object named user_1 using class named User
