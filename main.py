@@ -18,7 +18,7 @@ user_2 = User("002", "Cutu")
 print(user_2.username) #prints: "Cutu
 
 user_1.follow(user_2)
-print(user_1.followers)
-print(user_1.following)
-print(user_2.followers)
-print(user_2.following)
+print(user_1.followers) #prints: 0
+print(user_1.following) #prints: 1
+print(user_2.followers) #prints: 1
+print(user_2.following) #prints: 0
