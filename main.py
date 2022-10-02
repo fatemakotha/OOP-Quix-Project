@@ -8,8 +8,8 @@ class User: #creates a class named user
         self.followers = 0
         self.following = 0
     def follow(self, user):
-        user.following += 1
-        self.following += 1
+        user.followers += 1 #when followed, user_2's followers increase
+        self.following += 1 #when followed, user_1's following increase
 
 
 user_1 = User("001", "Kotha",)
